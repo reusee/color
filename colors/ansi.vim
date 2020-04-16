@@ -7,7 +7,7 @@ endif
 let colors_name = "ansi"
 
 highlight Search ctermfg=0
-highlight LineNr ctermfg=3
+highlight LineNr ctermfg=7
 highlight CursorLineNr ctermfg=2
 highlight Visual ctermfg=0 ctermbg=3
 highlight Folded ctermbg=8
@@ -30,8 +30,12 @@ highlight SpellRare	ctermfg=0
 highlight SpellLocal ctermfg=0	
 highlight CursorColumn ctermfg=0	
 highlight ColorColumn	ctermfg=0
-highlight SignColumn ctermfg=2
+highlight SignColumn ctermfg=3 ctermbg=0
 highlight MatchParen ctermfg=0
 highlight NvimInternalError	ctermfg=0
 highlight Error	ctermfg=0
 highlight Statement	ctermfg=3
+highlight Type ctermfg=2
+highlight Constant ctermfg=4
+highlight Comment ctermfg=1
+highlight VertSplit ctermbg=7 ctermfg=0
