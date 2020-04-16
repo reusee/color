@@ -12,7 +12,7 @@ var (
 	Cyan    = color.RGBA{0xd0, 0xd1, 0xfe, 0}
 	White   = color.RGBA{0xf3, 0xf3, 0xf3, 0}
 
-	LightBlack   = color.RGBA{0x8e, 0x8e, 0x8e, 0}
+	LightBlack   = color.RGBA{0x66, 0x66, 0x66, 0}
 	LightRed     = color.RGBA{0xff, 0xc4, 0xbd, 0}
 	LightGreen   = color.RGBA{0xd6, 0xfc, 0xb9, 0}
 	LightYellow  = color.RGBA{0xfe, 0xfd, 0xd5, 0}
@@ -23,4 +23,23 @@ var (
 
 	Foreground = White
 	Background = Black
+
+	Ansi16 = [...]color.Color{
+		0:  Black,
+		1:  Red,
+		2:  Green,
+		3:  Yellow,
+		4:  Blue,
+		5:  Magenta,
+		6:  Cyan,
+		7:  White,
+		8:  LightBlack,
+		9:  LightRed,
+		10: LightGreen,
+		11: LightYellow,
+		12: LightBlue,
+		13: LightMagenta,
+		14: LightCyan,
+		15: LightWhite,
+	}
 )
