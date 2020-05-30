@@ -31,7 +31,7 @@ highlight SpellLocal ctermfg=0
 highlight CursorColumn ctermfg=0	
 highlight ColorColumn	ctermfg=0
 highlight SignColumn ctermfg=3 ctermbg=0
-highlight MatchParen ctermfg=0
+highlight MatchParen ctermbg=2 ctermfg=0 cterm=bold
 highlight NvimInternalError	ctermfg=0
 highlight Error	ctermfg=0
 highlight Statement	ctermfg=3
