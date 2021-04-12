@@ -8,7 +8,6 @@ let colors_name = "ansi"
 
 highlight Search ctermfg=0
 highlight LineNr ctermfg=10
-highlight CursorLineNr ctermfg=2
 highlight Visual ctermfg=0 ctermbg=3
 highlight Folded ctermbg=8
 highlight FoldColumn ctermbg=8
