@@ -34,9 +34,10 @@ highlight ColorColumn	ctermfg=0
 highlight SignColumn ctermfg=3 ctermbg=0
 highlight MatchParen ctermbg=2 ctermfg=0 cterm=bold
 highlight NvimInternalError	ctermfg=0
-highlight Error	ctermfg=0
 highlight Statement	ctermfg=3
 highlight Type ctermfg=2
 highlight Constant ctermfg=4
 highlight Comment ctermfg=1
 highlight VertSplit ctermbg=7 ctermfg=0
+highlight Error ctermfg=NONE ctermbg=16
+
