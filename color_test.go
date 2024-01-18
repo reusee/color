@@ -17,11 +17,11 @@ func TestGnome(t *testing.T) {
 		}
 		buf.WriteString("'")
 		r, g, b, _ := c.RGBA()
-		buf.WriteString(fmt.Sprintf("#%x%x%x",
+		fmt.Fprintf(buf, "#%x%x%x",
 			r*0xff/0xffff,
 			g*0xff/0xffff,
 			b*0xff/0xffff,
-		))
+		)
 		buf.WriteString("'")
 	}
 	buf.WriteString("]")
