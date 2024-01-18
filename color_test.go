@@ -10,7 +10,7 @@ var pt = fmt.Printf
 
 func TestGnome(t *testing.T) {
 	buf := new(strings.Builder)
-	buf.WriteString("[")
+	buf.WriteString(`"[`)
 	for i, c := range Ansi16 {
 		if i > 0 {
 			buf.WriteString(", ")
@@ -24,6 +24,6 @@ func TestGnome(t *testing.T) {
 		)
 		buf.WriteString("'")
 	}
-	buf.WriteString("]")
+	buf.WriteString(`]"`)
 	pt("%s\n", buf.String())
 }
