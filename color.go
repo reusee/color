@@ -24,7 +24,7 @@ var (
 	LightBlack         = color.RGBA{0x66, 0x66, 0x66, 0}
 	White              = color.RGBA{0xf0, 0xf0, 0xf0, 0}
 	LightWhite         = color.RGBA{0xff, 0xff, 0xff, 0}
-	n1           uint8 = 0xe8
+	n1           uint8 = 0xe6
 	n2           uint8 = 0xf0
 	Red                = color.RGBA{0xff, n1, n1, 0}
 	LightRed           = color.RGBA{0xff, n2, n2, 0}
